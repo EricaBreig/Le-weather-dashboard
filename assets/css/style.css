@@ -1,5 +1,12 @@
 body {
     font-family: 'Nova Mono', monospace;
+    /* background-image: url(/assets/images/weatherforecastmeme.jpeg); */
+}
+
+.meme{
+
+border: 3px solid black;
+height: 100vh;
 }
 
 dt {
@@ -22,3 +29,6 @@ background-color: yellow;
  background-color: red;
 }
 
+/* .hide{
+    display:none;
+} */

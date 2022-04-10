@@ -36,7 +36,7 @@ function populate5day(data) {
                 <dd>${windSpeed} MPH</dd>
                 <dt>Humidity</dt>
                 <dd>${humidity}%</dd>
-            </dl>
+            </dl> 
           `;
     forecastContainerEl.appendChild(div);
   });
@@ -76,7 +76,7 @@ function getCityDayWeather(city) {
           var humidity = current.humidity;
           var uviIndex = current.uvi;
           var icon = current.weather[0].icon;
-
+// remove(".hide");
           weatherDayCityEl.textContent = city;
           weatherDayTempEl.textContent = temp;
           weatherDayWindEl.textContent = windSpeed;

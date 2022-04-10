@@ -5,3 +5,20 @@ body {
 dt {
     float: left;
 }
+
+#weather-day-uv-index {
+    padding: 7px;
+  }
+
+.favorable{
+    background-color: green;
+}
+
+.moderate{
+background-color: yellow;
+}
+
+.severe{
+ background-color: red;
+}
+

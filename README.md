@@ -4,6 +4,11 @@
 
 ## Description:
 This was an assingment in coding bootcamp for third party APIS.  We were tasked to create an app using the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api), so that the user can find a 5-day weather forecast for multiple cities.
+In this assignment, I practiced the following:
+- Using API keys from server side APIs
+- Utilizing fetch function
+- Utilizing JSON with local storage
+- Saving data to the local storage
 
 ### User Story
 

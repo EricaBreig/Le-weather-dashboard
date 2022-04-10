@@ -25,7 +25,7 @@ function populate5day(data) {
     var humidity = day.humidity;
     var icon = day.weather[0].icon;
     var div = document.createElement("div");
-    div.classList = "card-weather col-md-2 col-sm-12 bg-dark text-light me-3";
+    div.classList = "card-weather col-md-2 col-sm-12 bg-info text-black me-3";
     div.innerHTML = `
             <h4>${date}</h4>
             <img src="https://openweathermap.org/img/wn/${icon}.png" />

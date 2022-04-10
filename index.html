@@ -7,13 +7,9 @@
     <!-- We need to ensure the other styles are loaded before our stylesheet utilizes them -->
 
     <!--google font:-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap"
       rel="stylesheet"
@@ -44,7 +40,7 @@
           <aside>
             <div id="search-container">
               <h2>Search for a City:</h2>
-              <form id="search-form">
+              <form id="search-form-city-input">
                 <input type="text" placeholder="Chicago" class="col-12" />
                 <button class="btn btn-primary col-12">Search</button>
               </form>
@@ -52,73 +48,82 @@
             <div>
               <button class="btn btn-secondary col-12">Atlanta</button>
             </div>
+            <div>
+                <button class="btn btn-secondary col-12">Austin</button>
+              </div>
+              <div>
+                <button class="btn btn-secondary col-12">Chicago</button>
+              </div>
+              <div>
+                <button class="btn btn-secondary col-12">Washington, D.C.</button>
+              </div>
           </aside>
         </div>
         <div class="col-md-8">
           <div class="row">
             <h2 id="weather-day-city">Atlanta (3/30/2021)</h2>
             <dl>
-              <dt>Temp:</dt>
-              <dd id="weather-day-temp">77.32</dd>
-              <dt>wind:</dt>
-              <dd id="weather-day-wind">9.53 MPH</dd>
-              <dt>Humidity</dt>
-              <dd id="weather-day-humidity">66%</dd>
+              <dt>Temp: </dt>
+              <dd id="weather-day-temp"></dd>
+              <dt>Wind: </dt>
+              <dd id="weather-day-wind"></dd>
+              <dt>Humidity: </dt>
+              <dd id="weather-day-humidity"></dd>
               <dt>UV Index:</dt>
-              <dd class="rounded">0.47</dd>
+              <dd id="weather-day-uv-index" class="rounded"></dd>
             </dl>
           </div>
           <div class="row">
             <div class="col-12">
               <h3>5-Day Forecast</h3>
             </div>
-            <div class="card-weather col-md-3 col-sm-12 bg-dark text-light m">
-              <h4>3/31/2021</h4>
+            <div class="card-weather col-md-3 col-sm-12 bg-dark text-light me-3">
+              <!-- <h4>3/31/2021</h4>
               <img src="https://via.placeholder.com/20" />
               <dl>
-                <dt>Temp:</dt>
+                <dt>Temp: </dt>
                 <dd>77.32</dd>
-                <dt>wind:</dt>
+                <dt>Wind: </dt>
                 <dd>9.53 MPH</dd>
-                <dt>Humidity</dt>
+                <dt>Humidity: </dt>
                 <dd>66%</dd>
-              </dl>
+              </dl> -->
             </div>
             <div class="card-weather col-md-3 col-sm-12 bg-dark text-light m">
-              <h4>3/31/2021</h4>
+              <!-- <h4>3/31/2021</h4>
               <img src="https://via.placeholder.com/20" />
               <dl>
-                <dt>Temp:</dt>
+                <dt>Temp: </dt>
                 <dd>77.32</dd>
-                <dt>wind:</dt>
+                <dt>Wind: </dt>
                 <dd>9.53 MPH</dd>
-                <dt>Humidity</dt>
+                <dt>Humidity: </dt>
                 <dd>66%</dd>
-              </dl>
+              </dl> -->
             </div>
             <div class="card-weather col-md-3 col-sm-12 bg-dark text-light m">
-              <h4>3/31/2021</h4>
+              <!-- <h4>3/31/2021</h4>
               <img src="https://via.placeholder.com/20" />
               <dl>
-                <dt>Temp:</dt>
+                <dt>Temp: </dt>
                 <dd>77.32</dd>
-                <dt>wind:</dt>
+                <dt>Wind: </dt>
                 <dd>9.53 MPH</dd>
-                <dt>Humidity</dt>
+                <dt>Humidity: </dt>
                 <dd>66%</dd>
-              </dl>
+              </dl> -->
             </div>
-            <div class="card-weather col-md-3 col-sm-12 bg-dark text-light m">
-              <h4>3/31/2021</h4>
+            <div class="card-weather col-md-3 col-sm-12 bg-dark text-light">
+              <!-- <h4>3/31/2021</h4>
               <img src="https://via.placeholder.com/20" />
               <dl>
-                <dt>Temp:</dt>
+                <dt>Temp: </dt>
                 <dd>77.32</dd>
-                <dt>wind:</dt>
+                <dt>Wind: </dt>
                 <dd>9.53 MPH</dd>
-                <dt>Humidity</dt>
+                <dt>Humidity: </dt>
                 <dd>66%</dd>
-              </dl>
+              </dl> -->
             </div>
           </div>
         </div>
@@ -126,6 +131,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./assets/java/script.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

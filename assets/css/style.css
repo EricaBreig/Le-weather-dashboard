@@ -1,4 +1,7 @@
 body {
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Nova Mono', monospace;
 }
 
+dt {
+    float: left;
+}

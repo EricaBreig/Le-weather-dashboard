@@ -1,6 +1,6 @@
 # Weather Dashboard
 ## Deployed page:
-[Weather Dashboard](https://ericabreig.github.io/hw-6-weather-dash/)
+[Weather Dashboard](https://ericabreig.github.io/Le-weather-dashboard/)
 
 ## Description:
 This was an assingment in coding bootcamp for third party APIS.  We were tasked to create an app using the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api), so that the user can find a 5-day weather forecast for multiple cities.
